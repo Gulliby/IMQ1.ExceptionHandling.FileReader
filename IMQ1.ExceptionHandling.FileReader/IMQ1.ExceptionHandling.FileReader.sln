@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMQ1.ExceptionHandling.FileReader.Library", "IMQ1.ExceptionHandling.FileReader.Library\IMQ1.ExceptionHandling.FileReader.Library.csproj", "{2801485F-71BA-40CD-A0C2-66BFB85CC57E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMQ1.ExceptionHandling.FileReader.Infrastructure", "IMQ1.ExceptionHandling.FileReader.Infrastructure\IMQ1.ExceptionHandling.FileReader.Infrastructure.csproj", "{83A9399F-DACB-40BC-BC15-08ADB1E63136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMQ1.ExceptionHandling.FileReader.Executor", "IMQ1.ExceptionHandling.FileReader.Executor\IMQ1.ExceptionHandling.FileReader.Executor.csproj", "{8BCA16D8-5D78-4D33-863A-1AAF8681D956}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2801485F-71BA-40CD-A0C2-66BFB85CC57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2801485F-71BA-40CD-A0C2-66BFB85CC57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2801485F-71BA-40CD-A0C2-66BFB85CC57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2801485F-71BA-40CD-A0C2-66BFB85CC57E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A9399F-DACB-40BC-BC15-08ADB1E63136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A9399F-DACB-40BC-BC15-08ADB1E63136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A9399F-DACB-40BC-BC15-08ADB1E63136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A9399F-DACB-40BC-BC15-08ADB1E63136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BCA16D8-5D78-4D33-863A-1AAF8681D956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BCA16D8-5D78-4D33-863A-1AAF8681D956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BCA16D8-5D78-4D33-863A-1AAF8681D956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BCA16D8-5D78-4D33-863A-1AAF8681D956}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
